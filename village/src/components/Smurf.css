@@ -10,12 +10,12 @@
 .Smurf {
     display: flex;
     flex-direction: column;
-    border: 2px solid grey;
+    border: 1px solid white;
     width: 400px;
     height: 175px;
     margin: 50px 0 0 0;
     background-color: #3F96E2;
-    opacity: .7
+    opacity: .75
 }
 
 .Smurf h3 {
@@ -38,7 +38,7 @@
 
 .SmurfFormCont h2 {
     color: #3F96E2;
-    font-size: 32px;
+    font-size: 30px;
     margin: 75px 0 0 0;
 }
 
