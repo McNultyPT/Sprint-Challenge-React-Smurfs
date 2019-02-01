@@ -36,10 +36,16 @@
     margin: 15px 15px 0 0;
 }
 
+.SmurfFormCont h2 {
+    color: #3F96E2;
+    font-size: 32px;
+    margin: 75px 0 0 0;
+}
+
 .SmurfForm {
     display: flex;
     justify-content: center;
-    margin-top: 75px;
+    margin-top: 25px;
 }
 
 .SmurfForm form {
