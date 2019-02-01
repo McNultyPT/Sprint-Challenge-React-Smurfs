@@ -1,0 +1,32 @@
+.Smurfs {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+}
+
+.Smurfs h1 {
+    margin: 0 0 25px 35px;
+    font-size: 40px;
+    color: #3F96E2;
+}
+
+.Smurf {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid lightgrey;
+    width: 400px;
+    height: 175px;
+}
+
+.Smurf h3 {
+    margin: 25px 0 25px 0;
+}
+
+.Smurf strong {
+    margin: 0 0 25px 0;
+}
+
+.Smurf p {
+    margin: 0;
+}
+
