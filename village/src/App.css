@@ -1,3 +1,39 @@
 .App {
   text-align: center;
 }
+
+nav {
+  border-bottom: 2px solid #3F96E2;
+  margin: 35px 0 75px 0;
+  padding-bottom: 35px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navHeader {
+  margin: 0 0 0 50px;
+  font-size: 50px;
+  font-weight: bold;
+  color: #3F96E2;
+}
+
+.navLinks {
+  display: flex;
+  justify-content: space-around;
+  width: 500px;
+  align-items: center;
+  margin-right: 25px;
+}
+
+.navLinks a {
+  text-decoration: none;
+  color: #3F96E2;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.navLinks a:hover {
+  font-size: 26px;
+}
+
+
