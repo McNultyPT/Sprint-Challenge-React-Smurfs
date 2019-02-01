@@ -13,9 +13,11 @@
 .Smurf {
     display: flex;
     flex-direction: column;
-    border: 2px solid lightgrey;
+    border: 3px solid grey;
     width: 400px;
     height: 175px;
+    margin: 0 0 25px 0;
+    background-color: #3F96E2;
 }
 
 .Smurf h3 {
@@ -28,5 +30,48 @@
 
 .Smurf p {
     margin: 0;
+}
+
+.SmurfForm {
+    display: flex;
+    justify-content: center;
+}
+
+.SmurfForm form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 500px;
+    height: 375px;
+    border: 2px solid grey;
+}
+
+.SmurfForm input {
+    margin: 35px 0 0 0;
+    width: 470px;
+    height: 50px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #3F96E2;
+    font-size: 16px;
+}
+
+.SmurfForm button {
+    margin: 35px 0 0 0;
+    width: 150px;
+    height: 40px;
+    background-color: #3F96E2;
+    border: none;
+    border-radius: 6px;
+    font-size: 14px;
+    color: white;
+    font-weight: bold;
+}
+
+.SmurfForm button:hover {
+    color: #3F96E2;
+    background-color: white;
+    border: 1px solid #3F96E2;
 }
 
