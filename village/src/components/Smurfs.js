@@ -4,6 +4,10 @@ import Smurf from './Smurf';
 import './Smurf.css';
 
 class Smurfs extends Component {
+  constructor(props) {
+    super(props);
+  }
+
   render() {
     return (
       <div className="Smurfs">
@@ -16,6 +20,7 @@ class Smurfs extends Component {
                 age={smurf.age}
                 height={smurf.height}
                 key={smurf.id}
+                deleteSmurf={this.props.deleteSmurf}
               />
             );
           })}
